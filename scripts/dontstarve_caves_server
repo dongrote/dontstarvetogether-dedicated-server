@@ -1,0 +1,5 @@
+#!/bin/bash
+cd "${DST_SERVER_INSTALL_PATH}/bin64"
+exec ./dontstarve_dedicated_server_nullrenderer_x64 -persistent_storage_root "${DST_USER_DATA_PATH}" -cluster MyDediServer -shard Caves
+#cd "${DST_SERVER_INSTALL_PATH}/bin"
+#exec ./dontstarve_dedicated_server_nullrenderer -persistent_storage_root "${DST_USER_DATA_PATH}" -cluster MyDediServer -shard Caves

@@ -1,0 +1,10 @@
+
+version: '3.3'
+services:
+  dst-server:
+     image: dst-dedicated-server:latest
+     ports:
+        - '10999-11000:10999-11000/udp'
+        - '12346-12347:12346-12347/udp'
+     volumes:
+        - ~/services/dont-starve-together:/data
